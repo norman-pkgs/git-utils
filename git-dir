@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+git rev-parse --git-dir &>/dev/null
+
+if [[ $? == 0 ]]; then
+    if [[ basename $(pwd) == ".git" ]]; then
+        exit 1
+    fi
+    exit 0
+else 
+    exit 1
+fi 
