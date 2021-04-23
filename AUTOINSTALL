@@ -1,2 +1,2 @@
 mkdir -p $HOME/.local/bin
-cp git-* $HOME/.local/bin
+cp bin/* $HOME/.local/bin
