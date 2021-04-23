@@ -30,7 +30,7 @@ All files on the path that are in the format `git-some-command arguments` can be
 
 ### git-loglive
 
-`git loglive` displays the `git log` but refreshes it every 20 seconds (default, argument 1 is the seconds).
+`git loglive` displays the `git log` but refreshes it every 5 seconds.
 
 ### git-name
 
